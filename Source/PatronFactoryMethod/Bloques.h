@@ -23,4 +23,19 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	// Tipo de bloque
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Block Properties")
+	FString BlockType;
+
+	// ID único del bloque	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Block Properties")
+	int32 BlockID;
+
+	// Método para inicializar el bloque
+	virtual void InicializarBlock(int32 ID, const FString& Type);
+
+	// Comportamiento específico del bloque
+	virtual void BlockComportamiento();
+	
+
 };

@@ -3,3 +3,14 @@
 
 #include "BloqueDestructible.h"
 
+ABloqueDestructible::ABloqueDestructible()
+{
+}
+
+void ABloqueDestructible::BlockComportamiento()
+{
+}
+
+void ABloqueDestructible::OnDestruirBloque(AActor* ActorDestruye)
+{
+}

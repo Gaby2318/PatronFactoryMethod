@@ -2,6 +2,8 @@
 
 
 #include "FabricaBloques.h"
+#include "Bloques.h"
+#include "BloqueDestructible.h"
 
 // Sets default values
 AFabricaBloques::AFabricaBloques()
@@ -24,4 +26,30 @@ void AFabricaBloques::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
+/*
+ABloques* AFabricaBloques::CrearBloque(ETipoBloque TipoBloque, int32 ID)
+{
+	ABloques* NuevoBloque = nullptr;
+	switch (TipoBloque)
+	{
+	case ETipoBloque::Normal:
+		NuevoBloque = GetWorld()->SpawnActor<ABloques>();
+		break;
+	case ETipoBloque::Destructible:
+		NuevoBloque = GetWorld()->SpawnActor<ABloqueDestructible>();
+		break;
+	case ETipoBloque::Indestructible:
+		// Implementar lógica para bloques indestructibles
+		break;
+	case ETipoBloque::PowerUp:
+		// Implementar lógica para bloques de PowerUp
+		break;
+	default:
+		break;
+	}
+	if (NuevoBloque)
+	{
+		NuevoBloque->InicializarBlock(ID, UEnum::GetValueAsString(TipoBloque));
+	}
+	return NuevoBloque;
+}*/

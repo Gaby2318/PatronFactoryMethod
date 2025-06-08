@@ -13,5 +13,11 @@ UCLASS()
 class PATRONFACTORYMETHOD_API ABloqueDestructible : public ABloques
 {
 	GENERATED_BODY()
-	
+
+public:
+	ABloqueDestructible();
+	virtual void BlockComportamiento() override;
+
+	UFUNCTION()
+	void OnDestruirBloque(AActor* ActorDestruye);
 };
