@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Gaby\\Documents\\Unreal Projects\\PatronFactoryMethod\\Source\\PatronFactoryMethod\\PatronFactoryMethod.Build.cs",
+		"C:\\Users\\Gaby\\Documents\\Unreal Projects\\PatronFactoryMethod\\Source\\PatronFactoryMethod.Target.cs",
+		"C:\\Users\\Gaby\\Documents\\Unreal Projects\\PatronFactoryMethod\\Source\\PatronFactoryMethodEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

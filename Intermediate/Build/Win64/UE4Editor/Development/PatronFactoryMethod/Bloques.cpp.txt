@@ -1,0 +1,3 @@
+C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\Definitions.PatronFactoryMethod.h
+C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Source\PatronFactoryMethod\Bloques.h
+C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Inc\PatronFactoryMethod\Bloques.generated.h

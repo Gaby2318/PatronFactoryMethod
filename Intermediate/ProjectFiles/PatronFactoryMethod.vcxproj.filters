@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PatronFactoryMethod.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{13F56EA9-0BB0-4E21-8BAB-EB73C23AA21B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PatronFactoryMethod.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PatronFactoryMethodEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2CA461F1-E9B4-4964-956C-E73638D22DC3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PatronFactoryMethod">
+      <UniqueIdentifier>{6844AF12-C9E3-4580-A99D-B0D324986BA3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PatronFactoryMethod\BloqueDestructible.cpp">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PatronFactoryMethod\BloqueDestructible.h">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PatronFactoryMethod\Bloques.cpp">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PatronFactoryMethod\Bloques.h">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PatronFactoryMethod\BombermanGameMode.cpp">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PatronFactoryMethod\BombermanGameMode.h">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PatronFactoryMethod\Enemigos.cpp">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PatronFactoryMethod\Enemigos.h">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PatronFactoryMethod\FabricaBloques.cpp">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PatronFactoryMethod\FabricaBloques.h">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PatronFactoryMethod\PatronFactoryMethod.Build.cs">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PatronFactoryMethod\PatronFactoryMethod.cpp">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PatronFactoryMethod\PatronFactoryMethod.h">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PatronFactoryMethod\PatronFactoryMethodCharacter.cpp">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PatronFactoryMethod\PatronFactoryMethodCharacter.h">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PatronFactoryMethod\PatronFactoryMethodGameMode.cpp">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PatronFactoryMethod\PatronFactoryMethodGameMode.h">
+      <Filter>Source\PatronFactoryMethod</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

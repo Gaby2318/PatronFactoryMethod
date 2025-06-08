@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PatronFactoryMethod",
+			"Path": "C:\\Users\\Gaby\\Documents\\Unreal Projects\\PatronFactoryMethod\\Source\\PatronFactoryMethod.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PatronFactoryMethodEditor",
+			"Path": "C:\\Users\\Gaby\\Documents\\Unreal Projects\\PatronFactoryMethod\\Source\\PatronFactoryMethodEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

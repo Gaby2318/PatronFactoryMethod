@@ -1,0 +1,27 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PatronFactoryMethod.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\PatronFactoryMethodEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\BloqueDestructible.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\Bloques.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\BombermanGameMode.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\Enemigos.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\FabricaBloques.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\PatronFactoryMethod.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\PatronFactoryMethodCharacter.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\PatronFactoryMethodGameMode.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\BloqueDestructible.gen.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\Bloques.gen.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\BombermanGameMode.gen.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\Enemigos.gen.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\FabricaBloques.gen.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\PatronFactoryMethod.init.gen.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\PatronFactoryMethodCharacter.gen.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\PatronFactoryMethodGameMode.gen.cpp.obj"
+"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\Default.rc2.res"
+/OUT:"C:\Users\Gaby\Documents\Unreal Projects\PatronFactoryMethod\Intermediate\Build\Win64\UE4Editor\Development\PatronFactoryMethod\UE4Editor-PatronFactoryMethod.lib"
