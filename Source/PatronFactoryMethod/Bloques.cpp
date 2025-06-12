@@ -2,7 +2,9 @@
 
 
 #include "Bloques.h"
-
+#include "FabricaBloques.h"
+#include "BloqueDestructible.h"
+//#include "TipoBloques.h"
 
 // Sets default values
 ABloques::ABloques()

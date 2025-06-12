@@ -4,7 +4,13 @@
 #include "FabricaBloques.h"
 #include "Bloques.h"
 #include "BloqueDestructible.h"
+//#include "TipoBloques.h"
 
+/*
+ABloques* AFabricaBloques::CrearBloque(UWorld* World, EBlockType BlockType, int32 BlockID, const FTransform& SpawnTransform)
+{
+	return nullptr;
+}*/
 // Sets default values
 AFabricaBloques::AFabricaBloques()
 {
@@ -29,6 +35,7 @@ void AFabricaBloques::Tick(float DeltaTime)
 /*
 ABloques* AFabricaBloques::CrearBloque(ETipoBloque TipoBloque, int32 ID)
 {
+   // Crear el bloque según su tipo
 	ABloques* NuevoBloque = nullptr;
 	switch (TipoBloque)
 	{

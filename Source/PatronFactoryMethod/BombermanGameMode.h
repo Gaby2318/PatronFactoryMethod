@@ -20,10 +20,15 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
-    // Generar el laberinto
+	// Generar el laberinto
 	UFUNCTION(BlueprintCallable, Category = "Bomberman")
-    void GenerarLaberinto(int32 Width, int32 Heigth);
+	void GenerarLaberinto(int32 Width, int32 Heigth);
 
+	// Generar enemigos
+	void GenerarEnemigos(int32 EnemyCount);
+
+public:
+   
 	// Almacenamiento de bloques
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Bomberman")
 	TMap<int32, ABloques*> BlocksMap;
@@ -35,11 +40,20 @@ protected:
 	// ID counter para bloques
 	int32 BlockIDCounter;
 
-	// Generar enemigos
-	void GenerarEnemigos(int32 EnemyCount);
+	// Ancho del laberinto (configurable en editor)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Bomberman")
+	int32 LabWidth;
 
-	// Patrón de laberinto (puede ser generado proceduralmente)
+	// Alto del laberinto (configurable en editor)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Bomberman")
+	int32 LabHeight;
+
+	// Espacio entre bloques
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Bomberman")
+	float BlockSpacing;
+
+
+	// Patrón de laberinto, puede ser generado proceduralmente
 	//TArray<TArray<ETipoBloques>> MazePattern;
-	
 	
 };

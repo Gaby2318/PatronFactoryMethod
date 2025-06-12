@@ -2,9 +2,20 @@
 
 
 #include "BombermanGameMode.h"
+#include "Bloques.h"
+#include "Enemigos.h"
+#include "FabricaBloques.h"
+#include "BloqueDestructible.h"
+
 
 ABombermanGameMode::ABombermanGameMode()
 {
+	// 15 bloques de ancho
+	LabWidth = 15;
+	// 15 bloques de alto
+	LabHeight = 15;
+	// Espacio entre bloques
+	BlockSpacing = 100.0f; // Espacio entre bloques en unidades del mundo
 }
 
 void ABombermanGameMode::BeginPlay()
@@ -38,9 +49,17 @@ void ABombermanGameMode::GenerarLaberinto(int32 Width, int32 Heigth)
 		}
 	}
 	// Spawnear bloques según el patrón
-	
-
-	
+	// Aquí puedes implementar la lógica para colocar los bloques en el mundo
+	for (const auto& BlockPair : BlocksMap)
+	{
+		ABloques* Block = BlockPair.Value;
+		if (Block)
+		{
+			FVector SpawnLocation = FVector(BlockPair.Key % Width * BlockSpacing, BlockPair.Key / Width * BlockSpacing, 0.0f);
+			Block->SetActorLocation(SpawnLocation);
+			Block->InicializarBlock(BlockPair.Key, "Normal"); // Aquí puedes definir el tipo de bloque
+		}
+	}
 }
 
 void ABombermanGameMode::GenerarEnemigos(int32 EnemyCount)

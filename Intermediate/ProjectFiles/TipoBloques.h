@@ -3,7 +3,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "FabricaBloques.generated.h"
-
+// Enumeración para los tipos de bloques en el juego
 UENUM(BlueprintType)
 enum class ETipoBloque : uint8
 {
@@ -12,7 +12,7 @@ enum class ETipoBloque : uint8
 	Indestructible UMETA(DisplayName = "Indestructible"),
 	PowerUp        UMETA(DisplayName = "PowerUp")
 };
-
+// Enumeración para los tipos de enemigos
 UENUM(BlueprintType)
 enum class ETipoPowerUp : uint8
 {

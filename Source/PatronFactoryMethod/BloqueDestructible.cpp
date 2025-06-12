@@ -3,6 +3,10 @@
 
 #include "BloqueDestructible.h"
 
+void ABloqueDestructible::BeginPlay()
+{
+}
+
 ABloqueDestructible::ABloqueDestructible()
 {
 }

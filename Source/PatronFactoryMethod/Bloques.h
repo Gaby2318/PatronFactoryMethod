@@ -36,6 +36,10 @@ public:
 
 	// Comportamiento específico del bloque
 	virtual void BlockComportamiento();
-	
+
+private:
+	// ID único del bloque
+	UPROPERTY(VisibleAnywhere, Category = "Bloque")
+	int32 UniqueBlockID;
 
 };
